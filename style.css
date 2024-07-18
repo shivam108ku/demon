@@ -252,7 +252,7 @@ html, body{
 .elem:nth-last-child(1){
     border-bottom: 2px solid black;
 }
-@media (max-width:600px){
+@media (max-width:750px){
     border{
         overflow-x: hidden;
     } 
@@ -337,7 +337,7 @@ html, body{
 
 
     .scroll{
-        height: 10vh;
+        height: 12vh;
         width: 100%;
          
          
@@ -346,14 +346,14 @@ html, body{
     .scroll img{
         height: 100%;
         border-radius: 50vh;
-        width: 10%;
+        width: 12%;
         object-fit: top;
         object-position: 30%, 30%;
         margin: 3px;
     }
     .container{
         height: 100%;
-        width:  200%;
+        width:  180%;
         display: inline-block;
         animation-name: anime;
         animation-duration: 10s;
@@ -441,6 +441,20 @@ html, body{
     }
     .elem h4{
         font-size:3vw;
+    }
+
+
+    .elem img {
+        height: 15.5vh;
+        width: 25.5vw;
+        position: absolute;
+        border-radius: 50%;
+        left: 12%;
+        opacity: 0;
+        transition: all ease 0.7s;
+        object-position: center;
+        object-fit: cover;
+        cursor: pointer;
     }
     
 }
