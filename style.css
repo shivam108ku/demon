@@ -253,6 +253,9 @@ html, body{
     border-bottom: 2px solid black;
 }
 @media (max-width:750px){
+    *{
+        scroll-behavior: smooth;
+    }
     border{
         overflow-x: hidden;
     } 
